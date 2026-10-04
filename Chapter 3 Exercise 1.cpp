@@ -14,17 +14,17 @@ using namespace std;
 
 int main()
 {
-    double tankTotal, milesFullTank, milesPerGallon;
+    double tankTotal, milesFullTank, milesPerGallon;        //To hold the value for total gallons the tank can hold, total number of miles the car can be driven on a full tank, and the calculated mpg
 
     cout << "Enter the number of gallons of gas the car can hold: ";
     cin >> tankTotal;
     cout << "Enter the number of miles the car can be driven on a full tank: ";
     cin >> milesFullTank;
 
-    milesPerGallon = (milesFullTank / tankTotal);
+    milesPerGallon = (milesFullTank / tankTotal);       //To calculate the mpg using the given formula in the assignment
 
     cout << "\n" << "Based on the information entered, the average miles per gallon of this vehicle is: " << milesPerGallon << " MPG" << "\n";
-
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
